@@ -30,7 +30,7 @@
   "scripts": {
     "preinstall": "nvm alias default stable && nvm use default",
     "dev": "webpack --env.dev true --watch & npm start",
-    "build": "webpack --env.production true"
+    "build": "webpack --env.production true",
     "start": "node js/server"
   }
 }
