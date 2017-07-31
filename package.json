@@ -28,7 +28,6 @@
     "webpack": "^3.4.1"
   },
   "scripts": {
-    "preinstall": "source $HOME/.nvm/nvm.sh; nvm alias default stable && nvm use default",
     "dev": "webpack --env.dev true --watch & npm start",
     "build": "webpack --env.production true",
     "start": "node js/server"
