@@ -34,7 +34,7 @@ module.exports = ( env = {} ) => {
         
         output: {
             
-            path: path.resolve( __dirname, 'assets' ),
+            path: path.resolve( __dirname, 'www' ),
             
             filename: 'bundle.js',
             
