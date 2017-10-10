@@ -12,7 +12,7 @@ module.exports = ( env = {} ) => {
         
         entry: ifEnv({
             
-            'production': [ 'babel-polyfill' ],
+            // 'production': [ 'babel-polyfill' ],
             
             '*': [
                 
@@ -77,6 +77,14 @@ module.exports = ( env = {} ) => {
                         ]
                         
                     })
+                    
+                },
+                
+                {
+                    
+                    test: /\.svg/,
+                    
+                    loader: 'svg-url-loader'
                     
                 },
                 
