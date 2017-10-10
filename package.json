@@ -9,7 +9,9 @@
     "babel-polyfill": "^6.23.0",
     "babel-runtime": "^6.25.0",
     "express": "^4.15.3",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "mithril": "^1.1.4",
+    "nanobus": "^4.2.0"
   },
   "devDependencies": {
     "autoprefixer-loader": "^3.2.0",
@@ -24,12 +26,12 @@
     "raw-loader": "^0.5.1",
     "reload-server-webpack-plugin": "^1.0.1",
     "sass-loader": "^6.0.6",
+    "svg-url-loader": "^2.2.0",
     "uglifyjs-webpack-plugin": "^0.4.6",
     "webpack": "^3.4.1"
   },
   "scripts": {
-    "dev": "webpack --env.dev true --watch",
-    "dev-start": "npm run dev & npm run start",
+    "dev": "webpack --env.dev true --watch & npm run start",
     "build": "webpack --env.production true",
     "start": "node js/server"
   }
