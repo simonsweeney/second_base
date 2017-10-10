@@ -1,6 +1,5 @@
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var UglifyJSPlugin = require('uglifyjs-webpack-plugin');
-var ReloadServerPlugin = require('reload-server-webpack-plugin');
 var path = require('path');
 var isPlainObject = require('lodash/isPlainObject');
 
